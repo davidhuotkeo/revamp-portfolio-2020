@@ -1,0 +1,12 @@
+:root {
+    --black-color: #2a363b;
+    --white-color: #f9f7f7;
+    --accent-color: #e84a5f;
+
+    --margin-big: 7vw;
+    --margin-medium: 3vw;
+    --margin-small: 36px;
+    --margin-top: 50px;
+
+    --font-size: 18px;
+}

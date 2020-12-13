@@ -1,28 +1,27 @@
 <template>
     <div id="app">
-        <img alt="Vue logo" src="./assets/logo.png" />
+        <div id="nav">
+            <dave-nav></dave-nav>
+        </div>
+        <router-view></router-view>
     </div>
 </template>
 
-<script>
-export default {
-    name: "App",
-};
-</script>
-
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import "./css/style.css";
 
 #app {
-    font-family: "Poppins", sans-serif;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+    color: var(--black-color);
+    text-align: start;
 }
 
 body {
     margin: 0;
+    background-color: var(--white-color);
+    font-size: var(--font-size);
 }
 </style>
