@@ -5,7 +5,7 @@
         <div class="letter-nav">
             <router-link to="/">Case Studies</router-link>
             <router-link to="/">About Me</router-link>
-            <router-link to="/">Website Appearance</router-link>
+            <dave-theme></dave-theme>
         </div>
     </div>
 </template>
@@ -16,6 +16,11 @@ export default {};
 
 <style scoped>
 #nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100vw - var(--margin-big) * 2);
+
     --text-title-space: 40px;
 
     display: flex;
@@ -23,6 +28,13 @@ export default {};
     justify-content: space-between;
     margin: 0 var(--margin-big);
     margin-top: var(--margin-top);
+
+    z-index: 10;
+}
+
+.letter-nav {
+    display: flex;
+    align-items: center;
 }
 
 img {
@@ -32,12 +44,11 @@ img {
 a {
     font-size: 0.9rem;
     text-decoration: none;
-    color: var(--black-color);
-    margin: 0 var(--text-title-space);
+    color: var(--text-color);
 }
 
-a:first-child {
-    color: var(--accent-color);
+.letter-nav > *:not(:last-child) {
+    margin-right: var(--text-title-space);
 }
 
 a:last-child {

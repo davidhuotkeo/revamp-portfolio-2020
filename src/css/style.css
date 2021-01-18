@@ -10,3 +10,13 @@
 
     --font-size: 18px;
 }
+
+.light {
+    --text-color: var(--black-color);
+    --bg-color: var(--white-color);
+}
+
+.dark {
+    --text-color: var(--white-color);
+    --bg-color: var(--black-color);
+}

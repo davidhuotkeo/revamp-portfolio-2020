@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" class="light">
         <div id="nav">
             <dave-nav></dave-nav>
         </div>
@@ -9,19 +9,23 @@
 
 <style>
 @import "./css/style.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: var(--black-color);
+    color: var(--text-color);
     text-align: start;
+    background-color: var(--bg-color);
+
+    transition: background 0.5s ease-in, color 1s ease-in;
 }
 
 body {
     margin: 0;
-    background-color: var(--white-color);
     font-size: var(--font-size);
+    width: 100vw;
+    min-height: calc(100vh - var(--margin-top));
 }
 </style>

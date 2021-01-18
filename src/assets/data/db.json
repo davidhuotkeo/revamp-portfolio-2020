@@ -1,0 +1,22 @@
+{
+    "caseStudy": [
+        {
+            "id": 1,
+            "type": "Branding Design",
+            "title": "Icons design for branding identity",
+            "img": "@/assets/new-year.jpg"
+        },
+        {
+            "id": 2,
+            "type": "Branding Design",
+            "title": "Icons design for branding identity",
+            "img": "@/assets/new-year.jpg"
+        },
+        {
+            "id": 3,
+            "type": "Branding Design",
+            "title": "Icons design for branding identity",
+            "img": "@/assets/new-year.jpg"
+        }
+    ]
+}
