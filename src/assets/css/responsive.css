@@ -1,0 +1,28 @@
+#responsive {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--black-color);
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.resp-wrapper > p {
+    color: var(--white-color);
+}
+
+.resp-wrapper > p:nth-child(1) {
+    font-size: 1rem;
+}
+.resp-wrapper > p:nth-child(2) {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+.resp-wrapper > p:nth-child(1) {
+    
+}

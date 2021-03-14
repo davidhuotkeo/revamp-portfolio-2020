@@ -1,0 +1,50 @@
+.portfolio {
+    margin-bottom: 100px;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1rem;
+    margin-bottom: var(--margin-bottom);
+}
+
+.title {
+    font-size: 1.5rem;
+    margin: 30px 0 0 0;
+    font-weight: 700;
+}
+
+.content {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+img {
+    width: 70%;
+    margin: 30px 0;
+}
+
+.read {
+    opacity: 0.6;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.read:hover {
+    opacity: 1;    
+}
+
+p {
+    width: 80%;
+}
+
+.more {
+    height: 0;
+    overflow: hidden;
+    transition: height 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}

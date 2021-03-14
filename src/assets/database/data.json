@@ -1,0 +1,190 @@
+{
+    "experience": [
+        {
+            "year": "2017",
+            "title": "GAME USER EXPERIENCE AND GRAPHICS DESIGNER",
+            "description": "Top 4 High school game making as a game designer (Flow + Graphics) "
+        },
+        {
+            "year": "2018",
+            "title": "CAMBODIA PHYSICS OLYMPIAD",
+            "description": "Top 22 in Cambodia on Physics Olympiad test"
+        },
+        {
+            "year": "2019",
+            "title": "HUMAN TRAFFICKING DATA SCIENTIST ",
+            "description": "Observe behavior of how human trafficking works and come up with technologies solutions to prevents."
+        },
+        {
+            "year": "2019",
+            "title": "GRAPHICS DESIGN DIRECTOR TEDXKRAMUONSARST",
+            "description": "Creating branding and design concept of TEDx event."
+        },
+        {
+            "year": "2019",
+            "title": "UI UX DESIGNER CAMBODIA REPRESENTATIVE ASEAN FOUNDATION",
+            "description": "Creating UI UX design competing against all ASEAN members under limited time of 3 hours. "
+        },
+        {
+            "year": "2020",
+            "title": "GRAPHICS DESIGN AND WEBSITE ADMINISTRATION LEAD TEDXRUPP",
+            "description": "Creating branding, design concept and website design of TEDx event."
+        },
+        {
+            "year": "2020",
+            "title": "CTO PARKING SYSTEM CHISCHORT",
+            "description": "Planning the system, analyst the business making a system fittingthe cost and revenue. Creating a system with Deep Learning integration."
+        },
+        {
+            "year": "2020 - NOW",
+            "title": "UI UX DESIGN + DEVELOP NATIONAL BANK OF CAMBODIA",
+            "description": "Designing the Interface of National of Cambodia system. Not only interface, but also building up the design branding identity of Bakong and National Bank of Cambodia to boost up the marketing strategy. Analyse and research about the user experience of Bakong app and sub apps of Bakong"
+        }
+    ],
+    "work": [
+        {
+            "name": "KHQR Logo",
+            "description": "KHQR is a QR Code where any banks can scan to pay via Cambodian Mobile Banking Apps",
+            "image": "khqr-logo.jpg",
+            "more": [
+                {
+                    "type": "title",
+                    "content": "A logo represents QRCode?"
+                },
+                {
+                    "type": "text",
+                    "content": "Taking the letter KHQR and specific the symbolism of QR by creating a logofication illustration QR. As you can see in the picture below."
+                },
+                {
+                    "type": "image",
+                    "content": "khqr-comps.jpg"
+                },
+                {
+                    "type": "title",
+                    "content": "A QR stand for unified"
+                },
+                {
+                    "type": "text",
+                    "content": "The purpose of KHQR is to create a centralized QRCode where any mobile banking apps in Cambodia can scan and pay with it. So KHQR is a must to have a QR stand, this QR stand is created and measured for the best scanning length just for the COVID-19 prevention as well."
+                },
+                {
+                    "type": "image",
+                    "content": "khqr-analysis.jpg"
+                },
+                {
+                    "type": "title",
+                    "content": "KHQR Stand"
+                },
+                {
+                    "type": "text",
+                    "content": "A QR Stand for any merchants that registered under any banks."
+                },
+                {
+                    "type": "image",
+                    "content": "khqr-stand.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Open Banking",
+            "description": "Managing documents for other banks to develop is really hard, sometimes, the document is lacking in information or is not updated. Open Banking is a platform where everyone can see the document and doing sandbox on it as well",
+            "image": "open-banking-cover.png",
+            "more": [
+                {
+                    "type": "title",
+                    "content": "Easy access and usage, Open Banking by NBC"
+                },
+                {
+                    "type": "text",
+                    "content": "User interface is simply go for monotone color and aims for the best document practice."
+                },
+                {
+                    "type": "image",
+                    "content": "open-banking.png"
+                },
+                {
+                    "type": "title",
+                    "content": "How Open Banking platform is user simplification?"
+                },
+                {
+                    "type": "text",
+                    "content": "We simplified the interface for the best experience such as fixed navbar with bright and clear instruction to follow which is a big improvement for both beauty and how easy the platform to use."
+                },
+                {
+                    "type": "image",
+                    "content": "open-banking-ui.png"
+                }
+            ]
+        },
+        {
+            "name": "Open Banking Logo/Branding",
+            "description": "A logo of Open Banking, a document platform for a bank to access the document for developing or integrate the system that National Bank of Cambodia created.",
+            "image": "Open-baking-logo.jpg",
+            "more": [
+                {
+                    "type": "title",
+                    "content": "Paper + Banking = Documentation Platform"
+                },
+                {
+                    "type": "text",
+                    "content": "By crafting a logo in which the documentation platform. I simply get inspired by paper folding while I am sitting at my desk thinking how paper can be used. Then the paper is folded and turned into letter B which gave me an inspiration about Banking and Paper."
+                },
+                {
+                    "type": "image",
+                    "content": "Open-baking-logo-inspirration.jpg"
+                },
+                {
+                    "type": "title",
+                    "content": "Structuring the logo"
+                },
+                {
+                    "type": "text",
+                    "content": "With the letter O as the base measurement (Letter O for Open banking), the logo turns into a long typed with symbol logo. The font and colors in which we used is simply the branding guideline from National Bank of Cambodia. Dark red color and Nunito sans font."
+                },
+                {
+                    "type": "image",
+                    "content": "Open-baking-logo-structure.jpg"
+                },
+                {
+                    "type": "text",
+                    "content": "White version of the logo that mostly be used for the platform"
+                },
+                {
+                    "type": "image",
+                    "content": "Open-baking-logo-white.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Pomooodoro UI + Branding",
+            "description": "Pomooodoro is a platform used for boosting productivity, where you can work for 20 minutes and rest 5 minutes for 3 loops you can rest for 25 minutes.",
+            "image": "pomodoro-cover.png",
+            "more": [
+                {
+                    "type": "title",
+                    "content": "Branding and Identity of Pomooodoro"
+                },
+                {
+                    "type": "text",
+                    "content": "A branding where using the circle as the clock and it sliced as the time go on and on with pink and red color combined which means high positive productivity."
+                },
+                {
+                    "type": "image",
+                    "content": "pomodoro-branding.png"
+                },
+                {
+                    "type": "title",
+                    "content": "The straight forward User Interface and Experience"
+                },
+                {
+                    "type": "text",
+                    "content": "White version of the logo that mostly be used for the platform"
+                },
+                {
+                    "type": "image",
+                    "content": "pomodoro-ui.png"
+                }
+            ]
+        }
+    ]
+}

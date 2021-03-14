@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: rotate(90deg);
+}
+
+nav > a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+nav > a::after {
+    content: " ";
+    background-color: var(--text-color);
+    height: 1px;
+    transform: scaleX(0);
+    transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+nav > a:hover::after {
+    transform: scaleX(1);
+}
+
+nav > a:not(:first-child) {
+    margin-left: 30px;
+}
+
+.logo {
+    width: 100px;
+    margin: 100px 0 150px 0;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+}
+
+.head > span {
+    font-size: 9rem;
+    font-weight: bold;
+    text-align: start;
+}

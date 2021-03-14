@@ -1,0 +1,19 @@
+.contact-me {
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-me > a {
+    color: var(--text-color);
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.contact-me > a:hover {
+    opacity: 1;
+}
+
+.contact-me > a:last-child {
+    margin-bottom: 100px;
+}
