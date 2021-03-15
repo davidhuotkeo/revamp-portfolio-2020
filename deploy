@@ -1,0 +1,2 @@
+docker build -t devit/portfolio .
+docker run -d -p 80:80 --name devit-portfolio devit/portfolio
