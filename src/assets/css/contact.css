@@ -7,7 +7,9 @@
 .contact-me > a {
     color: var(--text-color);
     text-decoration: none;
-    opacity: 0.5;
+    opacity: 0.4;
+    transition: opacity 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin: 20px 0;
 }
 
 .contact-me > a:hover {
@@ -16,4 +18,16 @@
 
 .contact-me > a:last-child {
     margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-me {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .contact-me {
+        font-size: 2rem;
+    }
 }

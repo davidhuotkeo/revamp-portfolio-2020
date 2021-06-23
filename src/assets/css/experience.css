@@ -20,7 +20,8 @@
     margin: 8px 0;
 }
 
-.exp-detail > p:first-child, .exp-detail > p:last-child {
+.exp-detail > p:first-child,
+.exp-detail > p:last-child {
     font-style: italic;
     opacity: 0.7;
 }
@@ -42,4 +43,20 @@
 
 .expertise > p:hover {
     opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .expertise {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #experience {
+        display: block;
+    }
+
+    .expertise {
+        font-size: 2rem;
+    }
 }

@@ -15,7 +15,7 @@
                 <a @click="navigateTo('contact')">contact</a>
             </nav>
             <section class="head" id="head">
-                <img class="logo" src="@/assets/logo.png" alt="logo" />
+                <img class="logo" src="@/assets/logo.svg" alt="logo" />
                 <span>Impossibly</span>
                 <span>Creative</span>
                 <span>Designer</span>
@@ -75,8 +75,7 @@
             <section id="contact">
                 <p class="headline">Contact</p>
                 <div class="contact-me">
-                    <a href="tel:092651335">Telephone I</a>
-                    <a href="tel:087575857">Telephone II</a>
+                    <a href="tel:087575857">Phone Number</a>
                     <a href="mailto:david.huotkeo@gmail.com">Email</a>
                     <a href="https://www.behance.net/devithuotkeo">Behance</a>
                 </div>
@@ -98,9 +97,9 @@ export default {
     },
     name: "App",
     mounted() {
-        this.resizeScreeen();
+        // this.resizeScreeen();
         window.addEventListener("scroll", this.scrollChangeTheme);
-        window.addEventListener("resize", this.resizeScreeen);
+        // window.addEventListener("resize", this.resizeScreeen);
     },
     methods: {
         scrollChangeTheme() {
@@ -113,22 +112,22 @@ export default {
                 document.body.classList.remove("white");
             }
         },
-        resizeScreeen() {
-            const width = window.innerWidth;
-            if (width < 1000) {
-                if (width < 1000 && (width >= 1200 || width <= 800)) {
-                    this.$refs.responsive.style.display = "flex";
-                    this.$refs.contentWrapper.style.display = "none";
-                    document.body.style.overflow = "hidden";
-                }
-            } else {
-                if (width > 1000 && width < 1200) {
-                    this.$refs.responsive.style.display = "none";
-                    this.$refs.contentWrapper.style.display = "block";
-                    document.body.style.overflow = "scroll";
-                }
-            }
-        },
+        // resizeScreeen() {
+        //     const width = window.innerWidth;
+        //     if (width < 1000) {
+        //         if (width < 1000 && (width >= 1200 || width <= 800)) {
+        //             this.$refs.responsive.style.display = "flex";
+        //             this.$refs.contentWrapper.style.display = "none";
+        //             document.body.style.overflow = "hidden";
+        //         }
+        //     } else {
+        //         if (width > 1000 && width < 1200) {
+        //             this.$refs.responsive.style.display = "none";
+        //             this.$refs.contentWrapper.style.display = "block";
+        //             document.body.style.overflow = "scroll";
+        //         }
+        //     }
+        // },
         navigateTo(idName) {
             const offsetTop = document.getElementById(idName).offsetTop;
 

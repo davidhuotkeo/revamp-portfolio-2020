@@ -86,6 +86,25 @@
             ]
         },
         {
+            "name": "KHQR Javascript SDK",
+            "description": "KHQR library for javascript",
+            "image": "khqr-library.jpg",
+            "more": [
+                {
+                    "type": "title",
+                    "content": "Generate/Decode KHQR with ease"
+                },
+                {
+                    "type": "text",
+                    "content": "install or include it to your project and use it like the readme, for npm, all you need to do is 'npm install khqr'"
+                },
+                {
+                    "type": "image",
+                    "content": "khqr-readme.png"
+                }
+            ]
+        },
+        {
             "name": "Open Banking",
             "description": "Managing documents for other banks to develop is really hard, sometimes, the document is lacking in information or is not updated. Open Banking is a platform where everyone can see the document and doing sandbox on it as well",
             "image": "open-banking-cover.png",

@@ -1,4 +1,14 @@
 :root {
-    --black-color: #1A1A1A;
-    --white-color: #F9F7F7;
+    --black-color: #3B413C;
+    --white-color: #EEF0F2;
+}
+
+@media only screen and (max-width: 414px) {
+    .headline {
+        font-size: 2rem;
+    }
+
+    p {
+        width: 75vw;
+    }
 }
