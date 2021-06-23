@@ -3,7 +3,7 @@
     --white-color: #EEF0F2;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
     .headline {
         font-size: 2rem;
     }
