@@ -50,9 +50,6 @@ export default {
         };
     },
     methods: {
-        getImage(filename) {
-            return require(`@/assets/image/${filename}`);
-        },
         moreLess() {
             let moreStyle = this.$refs.more.style
             let heightContent = this.$refs.more.scrollHeight

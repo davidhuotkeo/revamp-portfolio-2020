@@ -42,9 +42,9 @@ nav > a:not(:first-child) {
 }
 
 .head > span {
-    font-size: 9rem;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: start;
+    font-size: 8rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -62,6 +62,7 @@ nav > a:not(:first-child) {
         font-size: 3rem;
         margin-bottom: 20px;
         font-weight: bolder;
+        line-height: 50px;
     }
 
     nav {

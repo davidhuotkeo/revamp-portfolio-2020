@@ -10,8 +10,9 @@
         <div id="wrapper" ref="contentWrapper">
             <nav>
                 <a @click="navigateTo('wrapper')">devit huotkeo</a>
-                <a @click="navigateTo('experience')">about</a>
                 <a @click="navigateTo('portfolio')">work</a>
+                <a @click="navigateTo('process')">process</a>
+                <a @click="navigateTo('experience')">about</a>
                 <a @click="navigateTo('contact')">contact</a>
             </nav>
             <section class="head" id="head">
@@ -24,6 +25,9 @@
                 <span>Interface</span>
                 <span>To the next</span>
                 <span>Level</span>
+            </section>
+            <section id="portfolio">
+                <p class="heading">My recent work</p>
             </section>
             <section id="experience">
                 <div class="left">
@@ -55,23 +59,6 @@
                     <p>Software Development</p>
                 </div>
             </section>
-            <section id="portfolio">
-                <p class="headline">My Work</p>
-                <div class="table-content">
-                    <p class="head">Project List</p>
-                    <div class="projects">
-                        <a
-                            v-for="(project, id) in work"
-                            :key="id"
-                            @click="navigateTo(project.name)"
-                            >{{ project.name }}</a
-                        >
-                    </div>
-                </div>
-                <div class="work" v-for="(project, id) in work" :key="id">
-                    <dave-portfolio :project="project"></dave-portfolio>
-                </div>
-            </section>
             <section id="contact">
                 <p class="headline">Contact</p>
                 <div class="contact-me">
@@ -86,48 +73,28 @@
 
 <script>
 import db from "@/assets/database/data.json";
-import Portfolio from "./components/Portfolio";
 
 export default {
     data() {
         return {
             experiences: db.experience,
-            work: db.work,
         };
     },
     name: "App",
     mounted() {
-        // this.resizeScreeen();
         window.addEventListener("scroll", this.scrollChangeTheme);
-        // window.addEventListener("resize", this.resizeScreeen);
     },
     methods: {
         scrollChangeTheme() {
             const head = document
                 .getElementById("head")
                 .getBoundingClientRect();
-            if (head.height + head.y < 900) {
+            if (head.height + head.y < 600) {
                 document.body.classList.add("white");
             } else {
                 document.body.classList.remove("white");
             }
         },
-        // resizeScreeen() {
-        //     const width = window.innerWidth;
-        //     if (width < 1000) {
-        //         if (width < 1000 && (width >= 1200 || width <= 800)) {
-        //             this.$refs.responsive.style.display = "flex";
-        //             this.$refs.contentWrapper.style.display = "none";
-        //             document.body.style.overflow = "hidden";
-        //         }
-        //     } else {
-        //         if (width > 1000 && width < 1200) {
-        //             this.$refs.responsive.style.display = "none";
-        //             this.$refs.contentWrapper.style.display = "block";
-        //             document.body.style.overflow = "scroll";
-        //         }
-        //     }
-        // },
         navigateTo(idName) {
             const offsetTop = document.getElementById(idName).offsetTop;
 
@@ -137,14 +104,12 @@ export default {
             });
         },
     },
-    components: {
-        "dave-portfolio": Portfolio,
-    },
+    components: {},
 };
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;600;700&display=swap");
 @import "../src/assets/css/root.css";
 @import "../src/assets/css/head.css";
 @import "../src/assets/css/experience.css";
@@ -162,7 +127,7 @@ body {
 }
 
 #app {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Kufam", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: start;
@@ -195,9 +160,6 @@ section {
     margin-bottom: 50px;
 }
 
-p.head {
-    font-size: 1.5rem;
-}
 
 .projects {
     display: flex;
